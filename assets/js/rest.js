@@ -1,6 +1,6 @@
 
 function getdata(){
-    fetch('https://jsonplaceholder.typicode.com/todos/1')
+    fetch('http://localhost:9001/api/listfiles')
       .then(response => response.json())
       .then(json => console.log(json))
 }
