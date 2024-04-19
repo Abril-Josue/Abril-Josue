@@ -62,7 +62,10 @@
         <label for="formFile" class="form-label">Elige hasta 10 fotos máximo</label>
         <input class="form-control" type="file" id="formFile" multiple accept="image/*">
       </div>
-      <button onClick="getFiles()" class="btn-get-started scrollto">Subir</button>
+      <button onClick="getFiles()" id="button-upload" class="btn-get-started scrollto">
+        <span id="upload-text">Subir</span>
+        <span id="upload-loading" style="display:none;">Cargando...</span>
+      </button>
     </div>
 
 
